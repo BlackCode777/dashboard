@@ -4,15 +4,114 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+import { PocDashboardComponent } from './poc-dashboard/poc-dashboard.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
+  declarations: [AppComponent, PocDashboardComponent],
   imports: [
+
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
+
+/*
+
+AvatarModule,
+    BrowserModule,
+    FormsModule,
+    HttpClientModule,
+    ReactiveFormsModule,
+    BrowserAnimationsModule,
+    AccordionModule,
+    AutoCompleteModule,
+    BadgeModule,
+    BreadcrumbModule,
+    BlockUIModule,
+    ButtonModule,
+    CalendarModule,
+    CarouselModule,
+    CascadeSelectModule,
+    ChartModule,
+    CheckboxModule,
+    ChipsModule,
+    ChipModule,
+    ColorPickerModule,
+    ConfirmDialogModule,
+    ContextMenuModule,
+    VirtualScrollerModule,
+    DataViewModule,
+    DialogModule,
+    DividerModule,
+    DockModule,
+
+    DragDropModule,
+    DropdownModule,
+    
+    DynamicDialogModule,
+    EditorModule,
+    FieldsetModule,
+    FileUploadModule,
+    GalleriaModule,
+    InplaceModule,
+    InputMaskModule,
+    InputSwitchModule,
+    InputTextModule,
+    InputTextareaModule,
+    InputNumberModule,
+    ImageModule,
+    KnobModule,
+    ListboxModule,
+    MegaMenuModule,
+    MenuModule,
+    MenubarModule,
+    MessageModule,
+    MessagesModule,
+    MultiSelectModule,
+    OrganizationChartModule,
+    OrderListModule,
+    OverlayPanelModule,
+    PaginatorModule,
+    PanelModule,
+    PanelMenuModule,
+    PasswordModule,
+    PickListModule,
+    ProgressSpinnerModule,
+    ProgressBarModule,
+    RadioButtonModule,
+    RatingModule,
+    SelectButtonModule,
+    SidebarModule,
+    ScrollerModule,
+    ScrollPanelModule,
+    ScrollTopModule,
+    SkeletonModule,
+    SlideMenuModule,
+    SliderModule,
+    SpeedDialModule,
+    SpinnerModule,
+    SplitterModule,
+    SplitButtonModule,
+    StepsModule,
+    TableModule,
+    TabMenuModule,
+    TabViewModule,
+    TagModule,
+    TerminalModule,
+    TieredMenuModule,
+    TimelineModule,
+    ToastModule,
+    ToggleButtonModule,
+    ToolbarModule,
+    TooltipModule,
+    TriStateCheckboxModule,
+    TreeModule,
+    TreeSelectModule,
+    
+
+*/
